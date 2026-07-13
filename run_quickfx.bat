@@ -51,7 +51,7 @@ rem Check Tkinter separately so the error is accurate.
 if errorlevel 1 goto :tkinter_missing
 
 echo Starting QuickFX Editor...
-"%VENV_PY%" quickfx.py
+"%VENV_PY%" quickfx_extended.py
 if errorlevel 1 goto :app_failed
 exit /b 0
 

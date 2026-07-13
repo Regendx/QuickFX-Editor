@@ -1,6 +1,24 @@
-# QuickFX Editor v1.8
+# QuickFX Editor v1.9
 
 QuickFX is a lightweight Windows image editor for fast censoring, annotations, creative effects, and everyday corrections.
+
+
+## New in v1.9: Quick Text
+
+The text tool no longer opens a dialog every time you click. Use **Annotate → Text** to type once, click the image to position the text, adjust the style with a live preview, and press **Apply**.
+
+Quick Text includes:
+
+- Live preview and click-to-reposition
+- Caption, Title, Subtitle, Meme, and Label presets
+- Font size and left, center, or right alignment
+- Text, background, and outline colors
+- Optional background, outline, and drop shadow
+- Background opacity, padding, and outline width
+- One-click centered placement
+- Recent-text history saved between sessions
+- Advanced multiline dialog
+- `Ctrl+Enter` to apply the active text preview
 
 ## The v1.8 workflow change
 
@@ -41,7 +59,7 @@ Python 3.10 and newer are supported, including Python 3.13.
 ## Main areas
 
 - **Censor:** rectangle, lasso, protected faces, censor brushes, clone, and heal
-- **Annotate:** text, stickers, arrows, and boxes
+- **Annotate:** Quick Text with live styling, stickers, arrows, and boxes
 - **Adjust:** corrections, filters, creative effects, presets, and batch processing
 - **Transform:** crop, resize, rotate, flip, cinematic bars, and reset
 
@@ -56,6 +74,7 @@ Python 3.10 and newer are supported, including Python 3.13.
 - `Ctrl+O`: Open in a new tab
 - `Ctrl+V`: Paste image into a new tab
 - `Ctrl+W`: Close current tab
+- `Ctrl+Enter`: Apply Quick Text preview
 - `Ctrl+S`: Save
 - `Ctrl+Shift+S`: Save As
 - `Ctrl+Z`: Undo while preserving masks
@@ -65,6 +84,17 @@ Python 3.10 and newer are supported, including Python 3.13.
 - Hold `B`: Temporarily show the original image
 - `F`: Fit to window
 - `1`: 100% zoom
+
+## Quick Text
+
+The **Annotate → Text** tool now has a fast non-modal workflow:
+
+1. Type the text once in the sidebar.
+2. Click the image to position it, or use **Place Center**.
+3. Change size, style, alignment, colors, background, outline, shadow, opacity, and padding while the preview is active.
+4. Click **Apply** when it looks right.
+
+Built-in styles include Caption, Title, Subtitle, Meme, and Label. Recent text is remembered for quick reuse, and **Advanced…** keeps the multiline dialog available. Press `Ctrl+Enter` to apply the active text preview.
 
 ## Recovery
 

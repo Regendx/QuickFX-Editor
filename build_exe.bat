@@ -25,7 +25,7 @@ if errorlevel 1 goto :build_failed
 if errorlevel 1 goto :build_failed
 
 echo Building QuickFXEditor.exe...
-"%BUILD_PY%" -m PyInstaller --noconfirm --clean --onefile --windowed --additional-hooks-dir=. --name QuickFXEditor quickfx.py
+"%BUILD_PY%" -m PyInstaller --noconfirm --clean --onefile --windowed --additional-hooks-dir=. --name QuickFXEditor quickfx_extended.py
 if errorlevel 1 goto :build_failed
 
 echo.
